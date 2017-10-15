@@ -4,7 +4,7 @@
 
 class Printer{
 public:
-    int y = 0;
+    int lelvel = 0;
     int mult = 1;
     stepper x;
     stepper y;

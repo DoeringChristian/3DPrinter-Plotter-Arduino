@@ -17,7 +17,7 @@ double plotter::distpl(vector2i A,vector2i B,vector2i Point){
 }
 
 vector2i plotter::move(vector2i sourcce,vector2i dest,vector2i current){
-    if(current.x == dest.x && current.y == dest.y){
+    if(current == dest){
         return vector2i(0,0);
     }
     else{
