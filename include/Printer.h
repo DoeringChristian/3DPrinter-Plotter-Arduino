@@ -2,7 +2,8 @@
 #define PRINTER_H
 #include "include\plotter.h"
 
-struct Printer{
+class Printer{
+public:
     int y = 0;
     int mult = 1;
     stepper x;

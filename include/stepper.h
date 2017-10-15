@@ -15,8 +15,7 @@ const static char steppermask[STEPS_PER_REV][4] =  {{1,0,0,0},
 
 
 
-struct stepper{
-private:
+class stepper{
     unsigned char step;
     unsigned int pins[4];
 public:

@@ -5,8 +5,7 @@
 
 typedef unsigned int uint;
 
-struct plotter{
-private:
+class plotter{
     vector2i source;
     vector2i dest;
     vector2i current;
